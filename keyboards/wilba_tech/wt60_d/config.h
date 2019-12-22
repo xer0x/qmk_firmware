@@ -197,3 +197,7 @@
 
 // Add tap dance for CTRL/ESC on capslock
 #define TAPPING_TERM 180
+
+// Alter ESC key behavior - https://beta.docs.qmk.fm/features/feature_grave_esc
+#define GRAVE_ESC_ALT_OVERRIDE
+#define GRAVE_ESC_CTRL_OVERRIDE
